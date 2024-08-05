@@ -44,7 +44,7 @@ const MESSAGES = {
     CAB_ALREADY_BOOKED: 'You have already booked this cab.',
     BOOKING_SUCCESS: 'Booking successful!',
     SUCCESS: 'Success!',
-    BOOKING_ERROR: 'Could no book the cab. Sorry!',
+    BOOKING_ERROR: 'Booking Failed!',
     BOOKING_LIMIT_REACHED: 'Booking Limit Reached'
 };
 

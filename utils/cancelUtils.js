@@ -13,7 +13,6 @@ export const showCancelAlert = (id, setMyCabs) => {
                         await cancelBooking(id);
                         setMyCabs(prevCabs => prevCabs.filter(cab => cab.id !== id));
                         Alert.alert('Success', 'Booking cancelled successfully.');
-
                     } catch (error) {
                         Alert.alert('Error', 'There was an error cancelling your booking.');
                     }

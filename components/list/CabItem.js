@@ -3,7 +3,6 @@ import { View, Text, Image, TouchableOpacity } from 'react-native';
 import styles from './styles';
 
 const CabItem = ({ cab, onPress }) => {
-    console.log('CabItem:', cab);
     return (
         <TouchableOpacity onPress={onPress} style={styles.itemTouchable}>
             <View style={styles.itemContainer}>

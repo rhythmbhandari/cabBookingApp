@@ -21,10 +21,8 @@ const BookedCab = ({ route }) => {
         setLoading(true);
         try {
             const data = await fetchMyCabs();
-            console.log('My cabs:', data);
             setMyCabs(data);
         } catch (error) {
-            console.error('Error:', error);
         } finally {
             setLoading(false);
         }

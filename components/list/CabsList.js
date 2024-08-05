@@ -15,7 +15,6 @@ const CabsList = ({ navigation }) => {
             const cabs = await fetchCabs();
             setCabData(cabs);
         } catch (error) {
-            console.error('Failed to load cabs:', error);
         } finally {
             setLoading(false);
         }
